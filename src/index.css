@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-ikea-blue: #0058A3;
+  --color-ikea-yellow: #FFDA1A;
+  --color-text-dark: #111111;
+  --color-text-gray: #484848;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-text-dark bg-white antialiased;
+  }
+}
